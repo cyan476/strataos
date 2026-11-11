@@ -15,7 +15,6 @@ dnf5 -y install \
     kf6-knewstuff-devel kf6-knotifyconfig-devel kf6-attica-devel kf6-krunner-devel \
     kf6-kdbusaddons-devel kf6-sonnet-devel kf6-kauth-devel kf6-kconfig-devel kf6-kcodecs-devel \
     kf6-kxmlgui-devel kf6-kwindowsystem-devel kf6-kservice-devel kf6-kwidgetsaddons-devel \
-    qqc2-desktop-style-devel
 
 # 2. Clone AeroThemePlasma source
 git clone --depth 1 https://gitgud.io/aeroshell/atp/aerothemeplasma.git /tmp/atp
