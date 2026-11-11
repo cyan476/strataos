@@ -28,6 +28,7 @@ modules:
         - kvantum
         - qt6-qt5compat
         - fastfetch
+        - qt6-qtbase-private-devel
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
