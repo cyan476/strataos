@@ -9,11 +9,11 @@ dnf5 -y install gcc gcc-c++ cmake ninja-build extra-cmake-modules \
     qt6-qtsvg-devel wayland-devel git unzip
 
 # 2. Clone AeroThemePlasma source
-git clone --depth 1 https://gitgud.io/wackyideas/aerothemeplasma.git /tmp/atp
+git clone --depth 1 https://gitgud.io/aeroshell/atp/aerothemeplasma.git /tmp/atp
 cd /tmp/atp
 
 # 3. Build and install ATP directly into system paths (/usr)
-LIBEXEC_DIR=libexec UAC_LIBEXEC_DIR=libexec/kf6 CMAKE_GENERATOR=Ninja bash install.sh
+LIBEXEC_DIR=libexec UAC_LIBEXEC_DIR=libexec/kf6 CMAKE_GENERATOR=Ninja CMAKE_PREFIX_PATH=/usr bash install.sh
 
 # 4. Clean up temporary files & build tools to keep ISO size minimal
 rm -rf /tmp/atp
