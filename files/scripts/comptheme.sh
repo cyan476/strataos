@@ -6,7 +6,7 @@ dnf5 -y install gcc gcc-c++ cmake ninja-build extra-cmake-modules \
     plasma-workspace-devel libksysguard-devel kvantum qt6-qtmultimedia-devel \
     qt6-qt5compat-devel libplasma-devel qt6-qtbase-devel qt6-qtwayland-devel \
     plasma-activities-devel kf6-kpackage-devel kf6-kglobalaccel-devel \
-    qt6-qtsvg-devel wayland-devel git unzip
+    qt6-qtsvg-devel wayland-devel git unzip plasma-wayland-protocols-devel
 
 # 2. Clone AeroThemePlasma source
 git clone --depth 1 https://gitgud.io/aeroshell/atp/aerothemeplasma.git /tmp/atp
