@@ -27,7 +27,6 @@ modules:
         - starship
         - kvantum
         - qt6-qt5compat
-        - kwin-effects-blur
         - fastfetch
     remove:
       packages:
