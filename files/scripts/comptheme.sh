@@ -7,7 +7,7 @@ dnf5 -y install \
     qt6-qtbase-devel qt6-qtbase-private-devel qt6-qtdeclarative-devel \
     qt6-qtmultimedia-devel qt6-qt5compat-devel qt6-qtwayland-devel qt6-qtsvg-devel \
     wayland-devel wayland-protocols-devel plasma-wayland-protocols-devel \
-    layer-shell-qt-devel kwin-devel libksysguard-devel \
+    layer-shell-qt-devel kwin-devel libksysguard-devel kf6-karchive-devel \
     plasma-workspace-devel libplasma-devel plasma-activities-devel plasma-activities-stats-devel plasma5support-devel \
     kf6-kcoreaddons-devel kf6-kcolorscheme-devel kf6-kpackage-devel kf6-kglobalaccel-devel \
     kf6-ksvg-devel kf6-kcrash-devel kf6-kguiaddons-devel kf6-kcmutils-devel kf6-kio-devel \
@@ -30,7 +30,7 @@ dnf5 -y remove \
     qt6-qtbase-devel qt6-qtbase-private-devel qt6-qtdeclarative-devel \
     qt6-qtmultimedia-devel qt6-qt5compat-devel qt6-qtwayland-devel qt6-qtsvg-devel \
     wayland-devel wayland-protocols-devel plasma-wayland-protocols-devel \
-    layer-shell-qt-devel kwin-devel libksysguard-devel \
+    layer-shell-qt-devel kwin-devel libksysguard-devel kf6-karchive-devel\
     plasma-workspace-devel libplasma-devel plasma-activities-devel plasma-activities-stats-devel plasma5support-devel \
     kf6-kcoreaddons-devel kf6-kcolorscheme-devel kf6-kpackage-devel kf6-kglobalaccel-devel \
     kf6-ksvg-devel kf6-kcrash-devel kf6-kguiaddons-devel kf6-kcmutils-devel kf6-kio-devel \
