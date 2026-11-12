@@ -50,6 +50,6 @@ dnf5 -y remove \
     kf6-kitemmodels-devel kf6-kstatusnotifieritem-devel kf6-frameworkintegration-devel \
     kf6-kauth-devel kf6-kconfig-devel kf6-kcodecs-devel kf6-kxmlgui-devel \
     kf6-kwindowsystem-devel kf6-kservice-devel kf6-kwidgetsaddons-devel \
-    kf6-kcolorscheme-devel kf6-kcoreaddons-devel qqc2-desktop-style-devel
+    kf6-kcolorscheme-devel kf6-kcoreaddons-devel qqc2-desktop-style-devel || true
 
 dnf5 clean all
