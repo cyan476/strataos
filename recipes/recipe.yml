@@ -46,9 +46,7 @@ modules:
   - type: script
     scripts:
       - comptheme.sh
-      - useradd -m -G wheel -s /bin/bash strata
-      - echo "strata:password123" | chpasswd
-      - systemctl enable sddm
+      - mkusr.sh
 
   - type: default-flatpaks
     configurations:
