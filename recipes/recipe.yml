@@ -36,6 +36,7 @@ modules:
         - kf6-kpackage-devel
         - kf6-ksvg-devel
         - kf6-kcolorscheme-devel
+        - sddm
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
